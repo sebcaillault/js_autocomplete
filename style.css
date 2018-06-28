@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+
+#search-tab {
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+
+#result-box {
+    max-height: 200px;
+    width: fit-content;
+    overflow-y: scroll;
+    background-color: rgb(236, 236, 236);
+    margin-top: 15px;
+}
+
+#result-box > p {
+    margin: 15px;
+}
+
+h4 {
+    margin: 0 0 10px 0;
+    font-size: 0.8rem;
+}
